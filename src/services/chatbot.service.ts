@@ -661,7 +661,7 @@ RESPUESTA:
         return buildLocalFallback(context);
       }
 
-      throw new Error(NOT_FOUND_MESSAGE);
+      return NOT_FOUND_MESSAGE;
     }
   }
 }
